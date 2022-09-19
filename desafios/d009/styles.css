@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: rgb(39, 36, 36);
+    color: white;
+}
+
+img#video{
+    width: 250px;
+}
