@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        iframe#tela {
+            width: 100%;
+            height: 500px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nihil ad illo, non voluptatem saepe aperiam veritatis, sunt nesciunt perspiciatis, iste illum sequi incidunt earum ducimus excepturi. Doloribus, vitae debitis.</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error at rem, totam, blanditiis ab quas sed expedita enim, ad nihil quis assumenda illum sint consequatur quia. Ratione vero velit praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vero eveniet sunt distinctio optio necessitatibus quaerat numquam qui, tempore in quod dolores possimus laboriosam facilis reiciendis? Omnis tempore totam tenetur.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat exercitationem sit sed, magnam eius facilis incidunt odit cum commodi quisquam ad! At rem expedita in quibusdam quaerat, ab amet est?</p>">
+        <p>infelizmente seu navegador não é compatível com iframe</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea recusandae error aliquid quas aliquam adipisci corporis animi exercitationem beatae esse delectus doloribus dolorum nam, libero, amet nulla numquam accusamus assumenda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum qui possimus commodi asperiores hic delectus veniam accusamus atque sed cum, velit veritatis ipsam iusto eligendi quam quia doloremque quo repellat!</p>
+
+</body>
+</html>
